@@ -78,7 +78,7 @@ console.log(newEmployee)
           <option value="ISE">ISE</option>
           <option value="EEE">EEE</option>
         </Select>
-        <Link to="/employees">
+        <Link to="/">
           <Button type="button" onClick={handleCreate}>
             Create Employee
           </Button>

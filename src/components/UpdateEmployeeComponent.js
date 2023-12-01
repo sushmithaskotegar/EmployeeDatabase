@@ -86,7 +86,7 @@ const UpdateEmployeeComponent = ({ updateEmployee, employees }) => {
           <option value="ISE">ISE</option>
           <option value="EEE">EEE</option>
         </Select>
-        <Link to="/employees">
+        <Link to="/">
           <Button type="button" onClick={handleUpdate}>
             Update Employee
           </Button>
